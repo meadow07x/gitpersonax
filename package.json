@@ -1,0 +1,32 @@
+{
+  "name": "gitpersonax",
+  "version": "1.0.0",
+  "description": "GitPersonaX - Git profile management tool - quickly switch between multiple Git accounts",
+  "main": "index.js",
+  "bin": {
+    "gitpersonax": "./bin/gitpersonax.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "profile",
+    "switch",
+    "account",
+    "ssh"
+  ],
+  "author": "meadow07x",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "commander": "^14.0.2",
+    "inquirer": "^13.0.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.9",
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
