@@ -1,6 +1,6 @@
 {
   "name": "gitpersonax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitPersonaX - Git profile management tool - quickly switch between multiple Git accounts",
   "main": "./dist/index.js",
   "bin": {
