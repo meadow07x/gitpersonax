@@ -4,7 +4,7 @@
   "description": "GitPersonaX - Git profile management tool - quickly switch between multiple Git accounts",
   "main": "./dist/index.js",
   "bin": {
-    "gitpersonax": "./dist/index.js"
+    "gitpersonax": "./bin/gitpersonax.js"
   },
   "scripts": {
     "build": "tsc",
